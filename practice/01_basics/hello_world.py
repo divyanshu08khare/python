@@ -1,9 +1,7 @@
-print("hello chai")
+from chai import printChai
+from chai import shop
 
-def chai(n):
-    print(n)
+teas = ['ginger-tea', 'mint-tea']
+printChai(teas)
 
-chai("oolong tea")
-
-chai_one = "masala chai"
-chai_two = "mint tea"
+print(shop)
